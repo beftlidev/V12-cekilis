@@ -18,10 +18,9 @@ exports.run = async (client, message, args) => {
         client.giveawaysManager.delete(args[0]).then(() => {
             message.channel.send(':tada: Tamam! Çekiliş silindi!');
         }).catch((err) => {
-            message.channel.send('<:bakimda:798582408642560110> ' + messageID + ', ID li çekiliş bulunamadı!');
+            message.channel.send('<:bakimda:798582408642560110> ' + args[0] + ', ID li çekiliş bulunamadı!');
         });
     }
-}
 exports.conf = {
 aliases: [] 
 }
