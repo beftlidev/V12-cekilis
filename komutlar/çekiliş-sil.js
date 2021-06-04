@@ -7,9 +7,9 @@ exports.run = async (client, message, args) => {
       return message.channel.send(
         new Discord.MessageEmbed()
           .setTitle("**Hata**")
-          .setColor("RANDOM")
+          .setColor("RED")
           .setDescription(
-            " Lütfen silmemi istediğiniz bir çekiliş ID girin!" 
+            "<:codesty_support:844468556430704640> Lütfen silmemi istediğiniz bir çekiliş ID girin!" 
            ) 
           .setTimestamp()
       );
