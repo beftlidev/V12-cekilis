@@ -78,7 +78,7 @@ exports.conf = {
 
 exports.help = {
 
-  name: 'bitir',
+  name: 'çekiliş-bitir',
 
   description: 'çekiliş',
 
