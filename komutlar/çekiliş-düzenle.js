@@ -60,10 +60,8 @@ exports.run = async (client, message, args) => {
             const numberOfSecondsMax = client.giveawaysManager.options.updateCountdownEvery / 1000;
             message.channel.send(':tada: Tamam! Çekiliş düzenlendi!');
         }).catch((err) => {
-            message.channel.send('<:bakimda:798582408642560110> ' + messageID + ', ID li çekiliş bulunamadı!');
+            message.channel.send('<:bakimda:798582408642560110> ' + args[0] + ', ID li çekiliş bulunamadı!');
         });
-    }
-
 }
 exports.conf = {
 aliases: [] 
